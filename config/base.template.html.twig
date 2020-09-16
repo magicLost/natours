@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <meta name="keywords" content="производство, наружной, рекламы" />
+        <meta
+                name="description"
+                content="Производство наружной рекламы, широкоформатная печать, плоттерная резка, изготовление наклеек, вывесок, постеров в Спб в Приморском районе - рекламно-производственная компания."
+        />
+
+        <title>{% block title %}{% endblock %}</title>
+
+        {#<link href="{{ asset('main.css') }}" rel="stylesheet">#}
+
+
+        {#<script async type="text/javascript" src="{{ asset('vendors-main.js') }}"></script>
+        <script async type="text/javascript" src="{{ asset('main.js') }}"></script>#}
+
+        !!!main_css!!!
+        {% block stylesheets %}{% endblock %}
+
+        !!!main_script!!!
+        {% block javascripts %}{% endblock %}
+
+    </head>
+    <body>
+
+        <div id="root">
+            {% block root %}{% endblock %}
+        </div>
+
+    </body>
+
+</html>

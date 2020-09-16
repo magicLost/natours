@@ -1,0 +1,33 @@
+.alert {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: 9999;
+  color: rgb(0, 0, 0);
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 1.6rem 15rem;
+  -webkit-box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+  transition: all 0.5s ease-out;
+}
+.alert--success {
+  background-color: #95ffc7;
+}
+
+.alert--error {
+  background-color: #ff8e8c;
+}
+
+.alert--loading {
+  background-color: rgb(87, 235, 255);
+}
+.alert--show-translateY {
+  transform: translate(-50%, 0);
+}
+.alert--hide-translateY {
+  transform: translate(-50%, -80px);
+}

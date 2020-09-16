@@ -1,0 +1,31 @@
+/* .App {
+  //max-width: 1200px;
+  //margin: auto;
+  //text-align: center;
+
+  .Footer {
+    //display: none;
+    width: 100%;
+    margin: 20px auto;
+    max-width: 800px;
+
+    font: inherit;
+
+    font-size: 12px;
+
+    border-top: solid rgba(0, 0, 0, 0.315) 1px;
+    color: rgba(0, 0, 0, 0.315);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+}
+ */
+.main {
+  background-color: #f7f7f7;
+  padding: 8rem 6rem;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+}
