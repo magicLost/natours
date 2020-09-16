@@ -1,0 +1,5 @@
+export type TAUTH_ACTION = "SET_USER" | "LOG_OUT_USER";
+
+export type TMODAL_ACTION = "SHOW_MODAL" | "HIDE_MODAL";
+
+export type TALERT_ACTION = "SHOW_ALERT" | "HIDE_ALERT";
